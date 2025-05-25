@@ -1,12 +1,31 @@
-# React + Vite
+# Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Netflix clone built with **React.js** for the frontend and **Firebase** for authentication and backend services. This project mimics the UI and basic functionality of Netflix, including user authentication, movie browsing, and a personal watchlist.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 User Authentication (Sign In / Sign Up) with Firebase Auth
+- 🎬 Browse Movies
+- ❤️ Save movies to a personalized watchlist (Firebase Firestore)
+- 🔍 Responsive UI with category-based carousels (Popular, Trending, Top Rated)
+- 🎥 Hover effects and video trailers on movie thumbnails
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, Javascript
+- **Backend / Services**: Firebase (Auth, Firestore)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm
+- Firebase project
+
+### Installation
+
+```bash
+git clone https://github.com/DeanCabral/netflix-clone.git
+cd netflix-clone
+npm install
+```
