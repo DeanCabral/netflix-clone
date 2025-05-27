@@ -1,6 +1,6 @@
 # Netflix Clone
 
-A simple Netflix clone built with **React.js** for the frontend and **Firebase** for authentication and backend services. This project mimics the UI and basic functionality of Netflix, including user authentication, movie browsing, and a personal watchlist.
+A simple Netflix clone built with **React.js** for the frontend, **TMDb API** for movies listings and **Firebase** for authentication and backend services. This project mimics the UI and basic functionality of Netflix, including user authentication and movie browsing.
 
 ## Features
 
