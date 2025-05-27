@@ -28,7 +28,6 @@ const Home = () => {
         <TitleCards title={'Blockbuster Movies'} category={'top_rated'}/>
         <TitleCards title={'Only on Netflix'} category={'now_playing'}/>
         <TitleCards title={'Upcoming'} category={'upcoming'}/>
-        <TitleCards title={'Top Picks for You'} category={'popular'}/>
       </div>
       <Footer/>
     </div>
